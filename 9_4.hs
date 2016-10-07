@@ -1,0 +1,1 @@
+repeatFunc f n = foldr (.) id (map (\_ -> f) [1..n])
