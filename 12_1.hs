@@ -1,0 +1,1 @@
+cross n = map(\i-> map(\j-> if (i == j) || (i + j - 1 == n) then 1 else 0) [1..n]) [1..n]
